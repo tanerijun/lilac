@@ -1,16 +1,20 @@
 {
-	"name": "lilac",
-	"private": true,
-	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt dev",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
-	},
-	"devDependencies": {
-		"@nuxt/devtools": "^0.4.6",
-		"@types/node": "^18",
-		"nuxt": "^3.4.3"
-	}
+  "name": "lilac",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.4.6",
+    "@nuxtjs/tailwindcss": "^6.6.8",
+    "@types/node": "^18",
+    "nuxt": "^3.4.3",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.8"
+  }
 }
