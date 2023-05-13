@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <aside>Sidebar</aside>
+  <div class="flex gap-4">
+    <aside>
+      <Sidebar />
+    </aside>
     <main>
       <slot />
     </main>
