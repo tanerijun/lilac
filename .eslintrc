@@ -1,7 +1,7 @@
 {
   "root": true,
-  "extends": ["@nuxtjs/eslint-config-typescript"],
+  "extends": ["@nuxtjs/eslint-config-typescript", "prettier"],
   "rules": {
-    "vue/multi-word-component-names": false
+    "vue/multi-word-component-names": 0
   }
 }
