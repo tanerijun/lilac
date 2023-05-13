@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-4">
+  <div class="flex h-screen gap-2 px-2 pt-2">
     <aside>
       <Sidebar />
     </aside>
