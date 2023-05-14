@@ -2,8 +2,13 @@
   <nav class="flex h-full w-[320px] flex-col gap-2 border border-red-600">
     <div class="rounded-md border border-yellow-600 p-4">
       <ul class="flex flex-col gap-2">
-        <li>Home</li>
-        <li>Search</li>
+        <li class="flex items-center gap-4">
+          <span>Home</span>
+        </li>
+        <li class="flex items-center gap-4">
+          <IconSearch />
+          <span>Search</span>
+        </li>
       </ul>
     </div>
     <div class="border border-emerald-950">
