@@ -10,6 +10,7 @@ export default {
   serverMinify: true,
   serverModuleFormat: "esm",
   serverPlatform: "neutral",
+  tailwind: true,
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // publicPath: "/build/",
@@ -21,4 +22,4 @@ export default {
     v2_normalizeFormMethod: true,
     v2_routeConvention: true,
   },
-};
+}
