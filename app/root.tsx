@@ -21,7 +21,8 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-body">
+      {/* TODO: remove border! */}
+      <body className="flex min-h-screen flex-col border-2 border-green-400 font-body">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
